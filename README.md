@@ -1,38 +1,6 @@
 프로젝트 구조는 아래와 같습니다.
 
 
-dktech_homework
-│
-├── src
-│   └── main
-│       └── java
-│           ├── com
-│           │   └── loganalysis
-│           │       └── service
-│           │           ├── dto
-│           │           │   └── LogAnalysisOutputDto.java
-│           │           ├── LogAnalysisService.java
-│           │           └── LogPrinterService.java
-│           ├── com
-│           │   └── loganalysis
-│           │       └── utils
-│           │           ├── ConfigReader.java
-│           │           ├── DataExtractorUtil.java
-│           │           ├── FileReaderUtil.java
-│           │           └── FileWriterUtil.java
-│           └── com
-│               └── loganalysis
-│                   └── Main.java
-├── test
-│   └── java
-│       └── com
-│           └── loganalysis
-│               └── service
-│                   └── LogAnalysisServiceTest.java
-└── logs
-    ├── input.log
-    └── output.log
-
 LogAnalysisService
 : 데이터 분석을 위한 클래스[]안의 문자열을 추출
 analyze method 기능 : 각 라인을 분석하여 정보 추출 후, []안의 문자열을 추출
